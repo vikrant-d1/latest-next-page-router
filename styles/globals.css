@@ -100,6 +100,24 @@ a {
   text-decoration: none;
 }
 
+main{
+  min-height: 68vh;
+  padding: 1rem;
+}
+
+
+.footer {
+  color: #c7c7c7;
+}
+
+.footer ul li{
+  list-style-type: none;
+}
+
+._padding_2{
+  padding: 2rem;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

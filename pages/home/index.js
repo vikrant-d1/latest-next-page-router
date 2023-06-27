@@ -11,9 +11,7 @@ function Home({data}) {
   export async function getStaticProps() {
     const data = {title:'App Home Page', description:'This is home page description'}
     return {
-      props: {
-        data,
-      },
+      props: {data,},
     };
   }
   
